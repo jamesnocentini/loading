@@ -1,0 +1,41 @@
+// Use For Project Specific Variables
+
+$componentWidth               :       350px;
+
+$backgroundLinearTop          :       #f9f9f9;
+$backgroundLinearBottom       :       #cecbc4;
+
+$fontColor                    :       #757575;
+$font                         :       "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+
+
+$shadowWhite                  :       rgba(255,255,255,0.8);
+$shadowBlack                  :       rgba(0,0,0,0.2);
+
+$loadBarBack                  :       #dcdbd7;
+$loadLinearTop                :       #e0f6c8;
+$loadLinearBottom             :       #98ad84;
+
+$counterLinearTop             :       #eeeff3;
+$counterLinearBottom          :       #cbcbd3;
+$counterBottomArrow           :       #cbcbd3;
+
+@-webkit-keyframes loader {
+  0% { width: 0%; }
+  100% { width: 100%; }
+}
+
+@keyframes loader {
+  0% { width: 0%; }
+  100% { width: 100%; }
+}
+
+@-webkit-keyframes counter {
+  0% { left: -25px; }
+  100% { left: $componentWidth - 25px; }
+}
+
+@keyframes counter {
+  0% { left: -25px; }
+  100% { left: $componentWidth - 25px; }
+}
